@@ -1,0 +1,92 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye" , "Farewell"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "working",
+        "patterns": [
+          "Which does this website offer?",
+          "Which does this chatbot offer?",
+          "What is the purpose of this website?",
+          "What do you sell?","What do you do"
+        ],
+        "responses": [
+          "We are a online food platform which offers chinese , indian , italian etc "
+          
+        ]
+      }, 
+      {
+        "tag": "order",
+        "patterns": [
+          "Write my order",
+          "I want to order",
+          "I want to order chinese",
+          "I want to order italian",
+          "I want to order indian"
+          
+        ],
+        "responses": [
+          "Please let me know your order"
+          
+          
+        ]
+      },
+      {
+        "tag": "menu",
+        "patterns": [
+          "My order is biryani , paneer pasanda and naan",
+          "My order is noodles ",
+          "My order is pasta and garlic bread ",
+          "My order is chicken biryani?",
+          "My order is soup"
+          
+        ],
+        "responses": [
+          "Your order is confirmed"
+          
+          
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "How do i pay?",
+          "What are the payment options?",
+          "Payment options?"
+        ],
+        "responses": [
+          "Pay the final amount to yrbhootda@okhdfcbank"
+          
+        ]
+      }
+    ]
+  }
